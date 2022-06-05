@@ -1,0 +1,58 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "tronc",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 0, -4], "size": [8, 14, 8], "uv": [0, 34]}
+					]
+				},
+				{
+					"name": "lefteye",
+					"parent": "tronc",
+					"pivot": [3, 0, 6],
+					"cubes": [
+						{"origin": [1, 9, -4], "size": [1, 0, 1], "uv": [2, 0]},
+						{"origin": [1, 9, -4], "size": [0, 2, 1], "uv": [0, 4]},
+						{"origin": [2, 9, -4], "size": [0, 2, 1], "uv": [2, 2]},
+						{"origin": [1, 9, -3], "size": [1, 2, 0], "uv": [4, 3]},
+						{"origin": [1, 11, -4], "size": [1, 0, 1], "uv": [1, 2]}
+					]
+				},
+				{
+					"name": "righteye",
+					"parent": "tronc",
+					"pivot": [0, 0, 6],
+					"cubes": [
+						{"origin": [-2, 9, -4], "size": [1, 0, 1], "uv": [1, 1]},
+						{"origin": [-2, 9, -4], "size": [0, 2, 1], "uv": [0, 2]},
+						{"origin": [-1, 9, -4], "size": [0, 2, 1], "uv": [0, 0]},
+						{"origin": [-2, 9, -3], "size": [1, 2, 0], "uv": [4, 1]},
+						{"origin": [-2, 11, -4], "size": [1, 0, 1], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "chapeau",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 14, -8], "size": [16, 2, 16], "uv": [0, 0]},
+						{"origin": [-7, 16, -7], "size": [14, 2, 14], "uv": [0, 18]},
+						{"origin": [-5, 18, -5], "size": [10, 1, 10], "uv": [32, 34]},
+						{"origin": [-3, 19, -3], "size": [6, 1, 6], "uv": [42, 18]}
+					]
+				}
+			]
+		}
+	]
+}
