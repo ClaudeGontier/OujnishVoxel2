@@ -6,18 +6,19 @@ import net.minecraft.util.Identifier;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 
 public class OujnishModel extends AnimatedGeoModel<OujnishEntity> {
+
     @Override
-    public Identifier getModelLocation(OujnishEntity object) {
+    public Identifier getModelResource(OujnishEntity entity) {
         return new Identifier(OujnishMod2.MOD_ID, "geo/oujnish.geo.json");
     }
 
     @Override
-    public Identifier getTextureLocation(OujnishEntity object) {
+    public Identifier getTextureResource(OujnishEntity entity) {
         return new Identifier(OujnishMod2.MOD_ID, "textures/entity/oujnish/oujnish.png");
     }
 
     @Override
-    public Identifier getAnimationFileLocation(OujnishEntity animatable) {
+    public Identifier getAnimationResource(OujnishEntity animatable) {
         return new Identifier(OujnishMod2.MOD_ID, "animations/oujnish.animation.json");
     }
 }

@@ -33,7 +33,7 @@ public class OujnishEntity extends HostileEntity implements IAnimatable {
 
     protected void initCustomGoals() {
         this.goalSelector.add(1, new AttackGoal(this));
-        this.targetSelector.add(1, new ActiveTargetGoal<PlayerEntity>((MobEntity)this, PlayerEntity.class, true));
+        this.targetSelector.add(1, new ActiveTargetGoal<PlayerEntity>((MobEntity)this, PlayerEntity.class, false));
     }
 
     public static DefaultAttributeContainer.Builder setAttributes() {

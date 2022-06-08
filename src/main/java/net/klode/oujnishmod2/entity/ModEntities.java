@@ -13,5 +13,5 @@ public class ModEntities {
     public static final EntityType<OujnishEntity> OUJNISH = Registry.register(
             Registry.ENTITY_TYPE, new Identifier(OujnishMod2.MOD_ID, "oujnish"),
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, OujnishEntity::new)
-                    .dimensions(EntityDimensions.fixed(1.2f, 1.3f)).build());
+                    .dimensions(EntityDimensions.fixed(0.6f, 1.3f)).build());
 }

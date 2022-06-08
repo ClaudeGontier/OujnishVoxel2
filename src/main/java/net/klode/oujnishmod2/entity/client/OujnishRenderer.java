@@ -12,7 +12,7 @@ public class OujnishRenderer extends GeoEntityRenderer<OujnishEntity> {
     }
 
     @Override
-    public Identifier getTextureLocation(OujnishEntity entity) {
+    public Identifier getTextureResource(OujnishEntity entity) {
         return new Identifier(OujnishMod2.MOD_ID, "textures/entity/oujnish/oujnish.png");
     }
 }
