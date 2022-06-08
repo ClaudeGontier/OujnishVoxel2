@@ -3,6 +3,7 @@ package net.klode.oujnishmod2;
 import net.fabricmc.api.ModInitializer;
 import net.klode.oujnishmod2.item.ModItems;
 import net.klode.oujnishmod2.util.ModRegistries;
+import net.klode.oujnishmod2.world.structures.ModStructures;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import software.bernie.geckolib3.GeckoLib;
@@ -19,6 +20,8 @@ public class OujnishMod2 implements ModInitializer {
 		ModItems.registerModItems();
 
 		ModRegistries.registerModStuffs();
+
+		ModStructures.registerStructureFeatures();
 
 	}
 }
