@@ -1,0 +1,33 @@
+{
+  "type": "oujnishvoxel2:teub",
+
+  "start_pool": "oujnishvoxel2:teub/start_pool",
+
+  "size": 1,
+
+  "max_distance_from_center": 80,
+
+  "biomes": "#oujnishvoxel2:has_structure/teub_biomes",
+
+  "step": "underground_decoration",
+
+  "start_height": {
+    "absolute": -60
+  },
+
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "oujnishvoxel2:oujnish",
+          "weight": 5,
+          "minCount": 1,
+          "maxCount": 10
+        }
+      ]
+    }
+  }
+}
