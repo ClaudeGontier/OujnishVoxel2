@@ -1,5 +1,9 @@
 {
+  "itemGroup.oujnishvoxel2.main": "Oujnish Voxel 2",
+
   "item.oujnishvoxel2.oujnish_spawn_egg": "Oujnish Spawn Egg",
+  "item.oujnishvoxel2.daft_punk_music_disk": "Daft Punk Music Disk",
+  "item.oujnishvoxel2.daft_punk_music_disk.desc": "Nous sommes les Daft Punk - ZZCCMXTP",
 
   "entity.oujnishvoxel2.oujnish": "Oujnish"
 }
