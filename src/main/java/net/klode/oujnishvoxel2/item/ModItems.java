@@ -19,7 +19,7 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroups.MAIN)));
 
     public static final Item DAFT_PUNK_MUSIC_DISK = registerItem("daft_punk_music_disk",
-            new ModMusicDiscItem(9, ModSounds.DAFT_PUNK_MUSIC, new FabricItemSettings().group(ModItemGroups.MAIN).maxCount(1)));
+            new ModMusicDiscItem(9, ModSounds.DAFT_PUNK_MUSIC, new FabricItemSettings().group(ModItemGroups.MAIN).maxCount(1), -1));
 
 
     private static Item registerItem(String name, Item item) {
